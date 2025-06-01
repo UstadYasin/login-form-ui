@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: darkgreen;
+    text-shadow: darkgreen 10px 10px 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #121212, #1a1a1a, #000000, #1b1212);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+    
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container{
+    width: 400px;
+    height: 700px;
+    background-color: inherit;
+    margin: auto;
+    padding: 20px;
+    
+}
+.form{
+    width: 360px;
+    height: 660px;
+}
+input{
+    width: 360px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(119, 220, 119);
+    background-color: #121212;
+    border: darkgreen;
+}
