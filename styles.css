@@ -44,4 +44,13 @@ input{
     color: rgb(119, 220, 119);
     background-color: #121212;
     border: darkgreen;
+    border: 0;
+}
+input:hover{
+    background-color: black;
+    box-shadow: green 0px 0px 20px;
+}
+input:focus{
+    background-color: black;
+    box-shadow: green 0px 0px 20px;
 }
